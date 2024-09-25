@@ -15,7 +15,7 @@ main{
 .bodyContainer{
     height: 70vh;
     width: 23%;
-    background: linear-gradient( blue, gold);
+    background: linear-gradient(to right, skyblue, cornflowerblue);
     padding: 3%;
     border-radius: 5px;
 }
