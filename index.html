@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="bodyContainer">
+        <input type="text" id="enteringCity" autocomplete="off" placeholder="Enter city name" />
+        <button style="font-size: 32px" id="search">
+          <i class="fa fa-search"></i>
+        </button>
+  
+          <p id="city">City</p>
+
+          <p id="displayTemperature">--°C</p>
+
+          <p class="temp">Temperature</p>
+
+        
+
+        <div id="displayerController">
+          
+          <div class="displayer">
+            <p><span id="humidity">0</span>%</p>
+            <p>Humidity</p>
+          </div>
+
+          <div class="displayer">
+            <p><span id="wind">0</span>km/ph</p>
+            <p>Wind</p>
+          </div>
+
+          <div class="displayer">
+            <p><span id="feelsLike">0</span>°</p>
+            <p>Feels Like</p>
+          </div>
+
+          <div class="displayer">
+            <p><span id="visibility">0</span>KM</p>
+            <p>Visibility</p>
+          </div>
+
+          <div class="displayer">
+            <p><span id="pressure">0</span>hPa</p>
+            <p>Pressure</p>
+          </div>
+
+          <div class="displayer">
+            <p><span id="uvIndex">0</span>mW</p>
+            <p>UV Index</p>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
